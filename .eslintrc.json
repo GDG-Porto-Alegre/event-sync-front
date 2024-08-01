@@ -1,0 +1,3 @@
+{
+  "extends": "@forgedev-br/eslint-config/vite"
+}
