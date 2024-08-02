@@ -82,18 +82,31 @@ O projeto será iniciado em http://localhost:5173.
 ## Estrutura de Diretórios
 
 ```text
-├── public/         # Arquivos estáticos
-├── src/
-│   ├── assets/     # Arquivos de mídia e estilos
-│   ├── components/ # Componentes reutilizáveis
-│   ├── hooks/      # Custom hooks
-│   ├── pages/      # Páginas da aplicação
-│   ├── store/      # Configuração do Zustand
-│   ├── types/      # Tipos TypeScript
-│   ├── utils/      # Utilitários e helpers
-│   ├── App.tsx     # Componente principal
-│   └── main.tsx    # Ponto de entrada
-└── vite.config.ts  # Configuração do Vite
+.
+├── public              # Arquivos estáticos
+├── src
+│   ├── app
+│   │   ├── hooks       # Custom hooks
+│   │   ├── lib         # libs
+│   │   ├── schemas     # Schemas de validação
+│   │   ├── types       # Tipagem
+│   │   └── utils       # Utilidades
+│   ├── assets          # Arquivos de mídia e estilos
+│   ├── components      # Componentes reutilizáveis
+│   │   └── app         # Componentes com alguma lógica
+│   │   └── ui          # Componentes "burros"
+│   ├── pages           # Páginas da aplicação
+│   ├── style           # Estilização
+│   ├── app.tsx         # Componente principal
+│   └── main.tsx        # Ponto de entrada
+├── README.md
+├── components.json     # Configuração ShadcnUi
+├── postcss.config.js   # Configuração postcss
+├── tailwind.config.js  # Configuração Tailwind
+├── tsconfig.app.json   # Configuração tsconfig-vite
+├── tsconfig.json       # Configuração tsconfig-vite
+├── tsconfig.node.json  # Configuração tsconfig-vite
+└── vite.config.ts      # Configuração do Vite
 ```
 
 ## Contribuição
