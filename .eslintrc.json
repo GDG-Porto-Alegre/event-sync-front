@@ -1,3 +1,6 @@
 {
-  "extends": "@forgedev-br/eslint-config/vite"
+  "extends": [
+    "@forgedev-br/eslint-config/vite",
+    "plugin:storybook/recommended"
+  ]
 }
