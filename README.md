@@ -84,6 +84,7 @@ O projeto será iniciado em http://localhost:5173.
 
 ```text
 .
+├── .storybook          # Configuração Storybook
 ├── public              # Arquivos estáticos
 ├── src
 │   ├── app
@@ -97,6 +98,7 @@ O projeto será iniciado em http://localhost:5173.
 │   │   └── app         # Componentes com alguma lógica
 │   │   └── ui          # Componentes "burros"
 │   ├── pages           # Páginas da aplicação
+│   ├── stories         # Arquivos iniciais do Storybook
 │   ├── style           # Estilização
 │   ├── app.tsx         # Componente principal
 │   └── main.tsx        # Ponto de entrada
