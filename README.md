@@ -40,6 +40,7 @@
 
 - Node.js >= 20.x
 - npm >= 10.x (ou [pnpm](https://pnpm.io/))
+Use `nvm use` ou `fnm use` para baixar a versão fixada no projeto.
 
 ## Instalação
 
@@ -77,7 +78,7 @@ O projeto será iniciado em http://localhost:5173.
 - dev: Inicia o servidor de desenvolvimento.
 - build: Gera a versão de produção do projeto.
 - lint: Executa o ESLint para verificar problemas de código.
-- format: Formata o código usando Prettier.
+- test: Roda os testes.
 
 ## Estrutura de Diretórios
 
