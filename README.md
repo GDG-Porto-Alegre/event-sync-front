@@ -31,6 +31,7 @@
 - [Vite](https://vitejs.dev/) - Ferramenta de build rápida e moderna
 - [Vitest](https://vitest.dev/) - Teste unitário com foco em velocidade e integração com Vite
 - [Shadcn](https://ui.shadcn.com/) - Componentes de interface de usuário acessíveis e estilizados com Tailwind CSS
+- [TanStack Router](https://tanstack.com/router/latest) - O TanStack Router é uma biblioteca de roteamento para aplicações React.
 - [Forgedev/eslint-config](https://www.npmjs.com/package/@forgedev-br/eslint-config) - Configuração personalizada de eslint/prettier
 - [Storybook](https://storybook.js.org/) - Ferramenta para desenvolvimento de componentes de UI de forma isolada
 - [Clerk](https://clerk.com/) - Autenticação e gerenciamento de usuários para aplicações web
@@ -84,32 +85,33 @@ O projeto será iniciado em http://localhost:5173.
 
 ```text
 .
-├── .storybook          # Configuração Storybook
-├── public              # Arquivos estáticos
+├── .storybook              # Configuração Storybook
+├── public                  # Arquivos estáticos
 ├── src
 │   ├── app
-│   │   ├── hooks       # Custom hooks
-│   │   ├── lib         # libs
-│   │   ├── schemas     # Schemas de validação
-│   │   ├── types       # Tipagem
-│   │   └── utils       # Utilidades
-│   ├── assets          # Arquivos de mídia e estilos
-│   ├── components      # Componentes reutilizáveis
-│   │   └── app         # Componentes com alguma lógica
-│   │   └── ui          # Componentes "burros"
-│   ├── pages           # Páginas da aplicação
-│   ├── stories         # Arquivos iniciais do Storybook
-│   ├── style           # Estilização
-│   ├── app.tsx         # Componente principal
-│   └── main.tsx        # Ponto de entrada
+│   │   ├── hooks           # Custom hooks
+│   │   ├── lib             # libs
+│   │   ├── schemas         # Schemas de validação
+│   │   ├── types           # Tipagem
+│   │   └── utils           # Utilidades
+│   ├── assets              # Arquivos de mídia e estilos
+│   ├── components          # Componentes reutilizáveis
+│   │   └── app             # Componentes com alguma lógica
+│   │   └── ui              # Componentes "burros"
+│   ├── pages               # Páginas da aplicação
+│   ├── routes              # Controle de rotas
+│   ├── stories             # Arquivos iniciais do Storybook
+│   ├── style               # Estilização
+│   ├── main.tsx            # Ponto de entrada
+│   └── route-tree.gen.tsx  # Gerador de routes
 ├── README.md
-├── components.json     # Configuração ShadcnUi
-├── postcss.config.js   # Configuração postcss
-├── tailwind.config.js  # Configuração Tailwind
-├── tsconfig.app.json   # Configuração tsconfig-vite
-├── tsconfig.json       # Configuração tsconfig-vite
-├── tsconfig.node.json  # Configuração tsconfig-vite
-└── vite.config.ts      # Configuração do Vite
+├── components.json         # Configuração ShadcnUi
+├── postcss.config.js       # Configuração postcss
+├── tailwind.config.js      # Configuração Tailwind
+├── tsconfig.app.json       # Configuração tsconfig-vite
+├── tsconfig.json           # Configuração tsconfig-vite
+├── tsconfig.node.json      # Configuração tsconfig-vite
+└── vite.config.ts          # Configuração do Vite
 ```
 
 ## Contribuição
