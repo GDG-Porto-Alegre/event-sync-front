@@ -2,5 +2,14 @@
   "extends": [
     "@forgedev-br/eslint-config/vite",
     "plugin:storybook/recommended"
+  ],
+  // Exclude file from specific rules
+  "overrides": [
+    {
+      "files": ["routeTree.gen.ts"],
+      "rules": {
+        "eslint-plugin-unicorn/filename-case": "off"
+      }
+    }
   ]
 }
