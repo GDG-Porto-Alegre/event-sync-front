@@ -119,7 +119,15 @@ O projeto será iniciado em http://localhost:5173.
 Contribuições são bem-vindas! Por favor, siga as guidelines de contribuição e crie um pull request.
 
 ## Licença
+
 Este projeto está licenciado sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
+
+## Extensões recomendadas
+
+Ambas estão listadas nas recomendações do Workspace.
+
+- [Eslint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) Integrates ESLint JavaScript into VS Code.
+- [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss) Intelligent Tailwind CSS tooling for VS Code
 
 ---
 
