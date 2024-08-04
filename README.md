@@ -4,23 +4,6 @@
 
 **EventSync** é uma aplicação frontend desenvolvida para gerenciar eventos. Com esta aplicação, você pode criar, editar, visualizar e deletar eventos facilmente. Este projeto é construído usando **Vite**, **React**, e **TypeScript** para garantir uma experiência de desenvolvimento rápida e segura.
 
-## Funcionalidades
-
-- ⁠Cadastro de eventos (via Google Calendar)
-- ⁠Visualização de eventos (lista)
-- ⁠Campos
-  - Presencial/online
-  - Lugar/link
-  - Data: início / fim
-  - Hora: início / fim
-  - Categorias
-    - Meetup
-    - Evento
-    - Workshop
-    - Painel
-    - Encontro
-
-
 ## Tecnologias Utilizadas
 
 - [React](https://reactjs.org/) - Biblioteca para construção de interfaces de usuário
