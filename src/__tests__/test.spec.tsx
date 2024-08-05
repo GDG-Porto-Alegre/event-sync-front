@@ -8,6 +8,6 @@ describe('First test', () => {
   it('Should test a jsx component', () => {
     render(<h1 data-testid="hello">Hello, world!</h1>)
 
-    expect(screen.getByTestId('hello')).toBeDefined()
+    expect(screen.getByTestId('hello')).toBeInTheDocument()
   })
 })
