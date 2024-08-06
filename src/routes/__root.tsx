@@ -6,19 +6,19 @@ const RootComponent = () => {
     <div className="flex h-screen w-full flex-col">
       <div className="flex gap-2 p-2 text-lg">
         <Link
-          to="/"
+          activeOptions={{ exact: true }}
           activeProps={{
             className: 'font-bold',
           }}
-          activeOptions={{ exact: true }}
+          to="/"
         >
           Home
         </Link>{' '}
         <Link
-          to={'/about'}
           activeProps={{
             className: 'font-bold',
           }}
+          to={'/about'}
         >
           About
         </Link>
