@@ -19,7 +19,6 @@
 - [Storybook](https://storybook.js.org/) - Ferramenta para desenvolvimento de componentes de UI de forma isolada
 - [Clerk](https://clerk.com/) - Autenticação e gerenciamento de usuários para aplicações web
 
-
 ## Requisitos
 
 - Node.js >= 20.x
@@ -55,7 +54,7 @@ Para iniciar a aplicação em ambiente de desenvolvimento, execute:
   pnpm dev
 ```
 
-O projeto será iniciado em http://localhost:5173.
+O projeto será iniciado em http://localhost:3000.
 
 ## Scripts Disponíveis
 
