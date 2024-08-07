@@ -23,7 +23,7 @@
 
 - Node.js >= 20.x
 - [pnpm](https://pnpm.io/)
-Case esteja usando [nvm](https://github.com/nvm-sh/nvm) ou [fnm](https://github.com/Schniz/fnm), rode o comando `nvm use` ou `fnm use` para baixar a versão fixada no projeto.
+Caso esteja usando [nvm](https://github.com/nvm-sh/nvm) ou [fnm](https://github.com/Schniz/fnm), rode o comando `nvm use` ou `fnm use` para baixar a versão fixada no projeto.
 
 ## Instalação
 
