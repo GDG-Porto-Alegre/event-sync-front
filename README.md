@@ -19,18 +19,23 @@
 - [Storybook](https://storybook.js.org/) - Ferramenta para desenvolvimento de componentes de UI de forma isolada
 - [Clerk](https://clerk.com/) - Autenticação e gerenciamento de usuários para aplicações web
 
-
 ## Requisitos
 
 - Node.js >= 20.x
-- npm >= 10.x (ou [pnpm](https://pnpm.io/))
-Use `nvm use` ou `fnm use` para baixar a versão fixada no projeto.
+- [pnpm](https://pnpm.io/)
+Caso esteja usando [nvm](https://github.com/nvm-sh/nvm) ou [fnm](https://github.com/Schniz/fnm), rode o comando `nvm use` ou `fnm use` para baixar a versão fixada no projeto.
 
 ## Instalação
 
 1. Clone o repositório:
 ```bash
    git clone https://github.com/GDG-Porto-Alegre/event-sync-front.git
+```
+
+Se estiver usando a CLI do GitHub, execute:
+
+```bash
+  gh repo clone GDG-Porto-Alegre/event-sync-front
 ```
 
 2. Navegue até o diretório do projeto:
@@ -42,20 +47,17 @@ Use `nvm use` ou `fnm use` para baixar a versão fixada no projeto.
 3. Instale as dependências:
 
 ```bash
-  npm install
-  # ou
   pnpm install
 ```
 ## Executando a Aplicação
+
 Para iniciar a aplicação em ambiente de desenvolvimento, execute:
 
 ```bash
-  npm run dev
-  # ou
   pnpm dev
 ```
 
-O projeto será iniciado em http://localhost:5173.
+O projeto será iniciado em http://localhost:3000.
 
 ## Scripts Disponíveis
 
