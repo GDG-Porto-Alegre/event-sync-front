@@ -41,7 +41,7 @@ Se estiver usando a CLI do GitHub, execute:
 2. Navegue até o diretório do projeto:
 
 ```bash
-  cd event-manager
+  cd event-sync-front
 ```
 
 3. Instale as dependências:
@@ -65,6 +65,7 @@ O projeto será iniciado em http://localhost:3000.
 - build: Gera a versão de produção do projeto.
 - lint: Executa o ESLint para verificar problemas de código.
 - test: Roda os testes.
+- storybook: Inicia o Storybook na porta `6006`
 
 ## Estrutura de Diretórios
 
