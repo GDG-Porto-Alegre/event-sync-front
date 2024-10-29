@@ -3,4 +3,7 @@ pre-commit:
   commands:
     eslint:
       glob: "*.{js,ts,jsx,tsx}"
+      exclude:
+        - "node_modules"
+        - src/route-tree.gen.ts
       run: pnpm eslint {staged_files} --fix
